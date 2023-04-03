@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EB1616;
-    --secondary: #191C24;
-    --light: #6C7293;
-    --dark: #000000;
+    --primary: #1e78c6; /** Ana Renk Değişiyor **/
+    --secondary: #191C24; /** Sidebar Renk Değişiyor Default #191C24**/
+    --light: #9ca2bf; /** Yazı Sidebar **/
+    --dark: #000; /** Ana Arka Plan **/
 }
 
 .back-to-top {
@@ -287,3 +287,26 @@
     background: var(--dark);
     border-color: var(--primary);
 }
+
+/*** Nuri ***/
+
+.mydatatable {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table.dataTable td,
+table.dataTable th {
+    border: 1px solid #6C7292;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    padding: 8px;
+    background-color: #1A1C24;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color : #9ca2bf;
+    text-align: center;
+  }
